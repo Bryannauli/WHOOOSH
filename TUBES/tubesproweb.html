@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kereta Api Online</title>
+    <link rel="stylesheet" href="tubes.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tiket">Tiket</a></li>
+                <li><a href="#pembayaran">Pembayaran</a></li>
+                <li><a href="halamanakun.html">Akun</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Beranda -->
+    <section id="beranda">
+        <h1>Selamat Datang di WHOOSH TRAIN</h1>
+        <!-- Fitur Pemesanan Tiket -->
+        <div class="pemesanan-tiket">
+            <h2>Pemesanan Tiket</h2>
+            <form>
+                <label for="asal">Stasiun Asal:</label>
+                <input type="text" id="asal" name="asal">
+                
+                <label for="tujuan">Stasiun Tujuan:</label>
+                <input type="text" id="tujuan" name="tujuan">
+
+                <label for="tanggal">Tanggal Keberangkatan:</label>
+                <input type="date" id="tanggal" name="tanggal">
+
+                <button type="submit">Cari Tiket</button>
+            </form>
+        </div>
+        <!-- Banner Promosi -->
+        <div class="banner-promosi">
+            <h1>Promo dan Diskon</h1>
+            <img src="gambar/Promo-Traveloka-Tiket-Kereta-Api.jpg" alt="Promo Kereta Api" width="290">
+            <img src="gambar/3840668339.webp" alt="Promo Kereta Api" width="280" >
+            <img src="gambar/WhatsApp Image 2024-12-02 at 13.29.31_22eeb606.jpg" alt="Promo Kereta Api" width="280" >
+            <a class="btn btn-danger"
+              href=""></a>
+        </div>
+    </section>
+
+    <!-- Tiket -->
+    <section id="tiket">
+        <h1>Tiket</h1>
+        <!-- QR Code Boarding -->
+        <div class="qr-code">
+            <h3>QR Code Boarding</h3>
+            <img src="gambar/qr tiket pemesanan KAI.png" alt="QR Code" width="300" margin="15px">
+        </div>
+        <!-- Riwayat Pemesanan -->
+        <div class="riwayat-pemesanan">
+            <h3>Riwayat Pemesanan</h3>
+            <ul>
+                <li>Pemesanan 1 - Status: Selesai</li>
+                <li>Pemesanan 2 - Status: Belum Berangkat</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Akun -->
+    <section id="akun">
+        <h2>Akun</h2>
+        <!-- Profil -->
+        <div class="profil">
+            <h3>Profil</h3>
+            <form>
+                <h4>Login</h4>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <button type="submit">Login</button>
+            </form>
+            <form>
+                <h4>Register</h4>
+                <label for="reg-email">Email:</label>
+                <input type="email" id="reg-email" name="email">
+
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" name="password">
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <!-- Data Perjalanan -->
+        <div class="data-perjalanan">
+            <h3>Data Perjalanan</h3>
+            <p>Perjalanan terakhir: Jakarta - Bandung</p>
+        </div>
+        <!-- Pusat Bantuan -->
+        <div class="pusat-bantuan">
+            <h3>Pusat Bantuan</h3>
+            <p>Hubungi kami jika ada kendala.</p>
+        </div>
+    </section>
+
+    <!-- Pembayaran -->
+    <section id="pembayaran">
+        <h2>Pembayaran</h2>
+        <!-- Jadwal Tiket -->
+        <div class="jadwal-tiket">
+            <h3>Jadwal Tiket</h3>
+            <p>Tiket: Jakarta - Surabaya, 20 Desember 2024</p>
+        </div>
+        <!-- Metode Pembayaran -->
+        <div class="metode-pembayaran">
+            <h3>Metode Pembayaran</h3>
+            <ul>
+                <li>Transfer Bank</li>
+                <li>E-Wallet</li>
+                <li>Virtual Account</li>
+            </ul>
+        </div>
+        <!-- Konfirmasi Pembayaran -->
+        <div class="konfirmasi-pembayaran">
+            <h3>Konfirmasi Pembayaran</h3>
+            <p>Status: Berhasil</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="kontak">
+            <h3>Kontak</h3>
+            <p>Email: support@kereta-api.com</p>
+            <p>Telepon: 021-12345678</p>
+        </div>
+        <div class="sosial-media">
+            <h3>Sosial Media</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

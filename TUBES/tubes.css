@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #a3a8aab9;
+    color: #333;
+    background-image:url(gambar/ad23dc0dd88949b2d83b039e6ac0e52a.jpg) ;
+}
+
+/* Header */
+header {
+    background:rgb(89, 133, 171) ;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 900px;
+    background: #77a5d3;;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h1, section h2, section h3 {
+    text-align: center;
+}
+
+/* Forms */
+form {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #587ea4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
